@@ -1,0 +1,9 @@
+{"timestamp": "2025-06-05T08:00:00Z", "event_type": "user_login", "user_id": "user123", "ip_address": "192.168.1.1"}
+{"timestamp": "2025-06-05T08:00:15Z", "event_type": "page_view", "user_id": "user456", "page_url": "/dashboard"}
+This is a bad log line, not JSON.
+{"timestamp": "2025-06-05T08:00:30Z", "event_type": "data_fetch", "user_id": "user123", "data_size": 1024, "status": "success"}
+{"timestamp": "2025-06-05T08:00:45Z", "event_type": "error", "user_id": "user789", "error_code": 500, "message": "Internal server error."
+{"timestamp": "2025-06-05T08:01:00Z", "event_type": "user_logout", "user_id": "user456"}
+{"timestamp": "2025-06-05T08:01:10Z", "event_type": "data_upload", "user_id": "user123", "file_name": "report.pdf", "size": 2048, "success": true}
+{"timestamp": "2025-06-05T08:01:20Z", "event_type": "search", "user_id": "user789", "query": "patient data"
+{"timestamp": "2025-06-05T08:01:30Z", "event_type": "health_check", "status": "OK"}
