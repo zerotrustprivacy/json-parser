@@ -1,2 +1,2 @@
 # json-parser
-Using python to pull JSON data
+## Simple Python script that pulls JSON data
